@@ -1,6 +1,6 @@
 let value = 3
 let negValue = -value
-//console.log(negValue);
+console.log(negValue);
 
 
 let str1 = "pritam_"
@@ -19,4 +19,4 @@ let str3 = str1 + str2
 
 let gameCounter = 100
 gameCounter ++
-console.log(gameCounter);
+//console.log(gameCounter);
