@@ -37,3 +37,13 @@ console.log(newString);
 const anotherString = gameName.slice(0,4)
 console.log(anotherString);         //prit
 
+const newStringOne = "  pratham  "
+console.log(newStringOne);               //  pratham
+console.log(newStringOne.trim());        //pratham     
+
+const url = "https://prit.com/pritam%20patil"
+console.log(url.replace('%20','-'))      //https://prit.com/pritam-patil
+console.log(url.includes('pritam'));     //true
+
+const myyName = new String('prit-patil-26')
+console.log(myyName.split('-'));
