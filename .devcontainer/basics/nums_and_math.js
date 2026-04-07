@@ -13,3 +13,10 @@ console.log(otherNumber.toPrecision(3));             //23.9   // Must be in the 
 
 const number = 123.654
 console.log(number.toPrecision(3));               //124
+
+const numberOne = 1234.876
+console.log(numberOne.toPrecision(3));             //1.23e+3
+
+const numberZeros = 1000000
+console.log(numberZeros.toLocaleString());          //1,000,000
+console.log(numberZeros.toLocaleString('en-IN'));   //10,00,000
