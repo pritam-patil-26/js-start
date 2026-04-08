@@ -19,6 +19,17 @@ let myCreatedDate = new Date("2024-10-26")
 // console.log(myCreatedDate.toLocaleString());              //10/26/2024, 12:00:00 AM
 
 let myTimeStamp = Date.now()
-console.log(myTimeStamp);                    //1775664234703
-console.log(myCreatedDate.getTime());        //1729900800000
+// console.log(myTimeStamp);                    //1775664234703          //milisecond
+// console.log(myCreatedDate.getTime());        //1729900800000
 
+console.log(Math.floor(Date.now()/1000));        //1775664489       //sewconds
+
+let newDate = new Date()
+console.log(newDate);
+console.log(newDate.getMonth());        //3   //starting from 0
+console.log(newDate.getDay());          //3  // starting from monday
+console.log(newDate.getFullYear());     //2026
+
+// newDate.toLocaleString('default',{
+    // weekday: "long",
+// })
