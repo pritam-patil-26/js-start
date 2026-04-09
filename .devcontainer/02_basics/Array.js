@@ -26,5 +26,14 @@ const myarr = [0,1,2,3,4,5]
 // console.log(typeof(newarr));
 
 console.log("A" , myarr);
-const mya1 = slice(1,3)
-log
+
+const mya1 = myarr.slice(1,3)
+console.log(mya1)
+console.log("B" , myarr);
+
+const mya2 = myarr.splice(1,3)
+console.log(mya2);
+console.log("c" , myarr);
+
+
+
