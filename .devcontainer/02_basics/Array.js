@@ -25,15 +25,28 @@ const myarr = [0,1,2,3,4,5]
 
 // console.log(typeof(newarr));
 
-console.log("A" , myarr);
+// console.log("A" , myarr);
 
 const mya1 = myarr.slice(1,3)
-console.log(mya1)
-console.log("B" , myarr);
+// console.log(mya1)
+// console.log("B" , myarr);
 
 const mya2 = myarr.splice(1,3)
-console.log(mya2);
-console.log("c" , myarr);
+// console.log(mya2);
+// console.log("c" , myarr);
 
+//...........................+++++++++++..........................
 
+const marval_heros = ["thor" , "ironman" , "spiderman"]
+const dc_heros= ["superman" , "flash" , "batsman"]
 
+marval_heros.push(dc_heros)
+// const all_Heros = marval_heros.concat(dc_heros)
+// console.log(all_Heros);
+
+const all_new_hero = [...marval_heros,...dc_heros]
+// console.log(all_new_hero);/
+
+console.log(Array.isArray("pritam"));
+console.log(Array.from("pritam"));
+console.log(Array.from({name: "pritam"}));
