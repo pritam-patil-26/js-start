@@ -21,6 +21,11 @@ console.log(JsUser["full name"]);
 console.log(JsUser[mySym]);
 
 JsUser.email = "xyz@gmail.com"
-Object.freeze(JsUser)
+// Object.freeze(JsUser)
 JsUser.email = "lmn@gmail.com"
 console.log(JsUser);
+
+JsUser.greeting = function(){
+    console.log("Hello JS User");
+}
+console.log(JsUser.greeting());
