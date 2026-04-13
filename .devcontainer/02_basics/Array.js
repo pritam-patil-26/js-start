@@ -50,3 +50,5 @@ const all_new_hero = [...marval_heros,...dc_heros]
 console.log(Array.isArray("pritam"));
 console.log(Array.from("pritam"));
 console.log(Array.from({name: "pritam"}));
+console.log(Array.from("pratham"));
+
